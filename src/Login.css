@@ -1,21 +1,25 @@
 /* Login.css */
 
+/* Container for the login form */
 .header-div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0; /* Background color */
-  border: 1px solid #ccc; /* Border style */
-  border-radius: 10px; /* Border radius for rounded corners */
-  padding: 20px; /* Padding inside the box */
+  background-color: #35495e; 
+  border: 2px solid #f0a500; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: #ffffff; 
 }
 
+/* Login button styles */
 button {
   padding: 10px 20px;
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #f0a500; 
+  color: #ffffff;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -24,18 +28,26 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Hover color for the button */
+  background-color: #dd9000; 
 }
 
-Input {
+/* Input field styles */
+input {
   margin-bottom: 10px;
+  padding: 0.6rem;
+  border: 2px solid #f0a500; 
+  border-radius: 5px;
+  width: 100%;
+  color: #333; 
+  font-size: 16px;
 }
 
+/* Link styles */
 a {
   text-decoration: none;
-  color: #007bff; /* Link color */
+  color: #007bff; 
 }
 
 a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; 
 }
