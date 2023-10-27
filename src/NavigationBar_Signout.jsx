@@ -9,7 +9,7 @@ function NavigationBar_Signout() {
         try {
         
           alert("you are logged out successfully")
-          navigate('/');
+          navigate('/', {replace:true});
           console.log('done')
          
         }
@@ -28,11 +28,9 @@ function NavigationBar_Signout() {
       <input type="text" className="search-bar" placeholder="Search..." />
       <div className="options">
         <button className="option">POST</button>
-
-   
         <button className="option" onClick={handleLogin}>SignOut</button>
       </div>
-
+      
       <Outlet />
     </header>
   );
